@@ -1,0 +1,26 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(224, 216, 204);
+}
+.header {
+  background-color: rgb(172, 203, 193);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.footer {
+  height: 48px;
+  background: rgb(172, 203, 193);
+
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
