@@ -1,6 +1,5 @@
 @import "./theme.css";
 @import "./main.css";
-@import "./header.css";
 @import "./question-card.css";
 *,
 *::before,
@@ -12,6 +11,15 @@ body {
   font-family: system-ui, sans-serif;
   margin: 0;
   background-color: var(--body-bg);
+}
+
+.header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 10px;
 }
 
 .footer {
