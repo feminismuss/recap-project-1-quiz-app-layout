@@ -12,6 +12,13 @@
 a {
   padding: 5px 10px;
 }
+.profilpicture {
+  padding: 20px 10px;
+}
+.about-text {
+  padding: 10px;
+  color: var(--main-title-text);
+}
 .header {
   background-color: var(--header-bg);
   color: var(--header-text);
@@ -21,7 +28,8 @@ a {
   padding: 10px;
 }
 .active {
-  background-color: hotpink;
+  background-color: var(--main-bg);
+  border-radius: 5px;
 }
 .footer {
   height: 48px;
