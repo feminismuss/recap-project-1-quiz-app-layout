@@ -7,6 +7,17 @@
   color: var(--main-title-text);
   margin: 0 0 20px 0;
   padding: 10px;
+  margin: 0%;
+}
+a {
+  padding: 5px 10px;
+}
+.profilpicture {
+  padding: 20px 10px;
+}
+.about-text {
+  padding: 10px;
+  color: var(--main-title-text);
 }
 .header {
   background-color: var(--header-bg);
@@ -16,7 +27,10 @@
   width: 100%;
   padding: 10px;
 }
-
+.active {
+  background-color: var(--main-bg);
+  border-radius: 5px;
+}
 .footer {
   height: 48px;
   background: var(--header-bg);
