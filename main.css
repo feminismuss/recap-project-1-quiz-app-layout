@@ -32,7 +32,6 @@ a {
   border-radius: 5px;
 }
 .footer {
-  height: 48px;
   background: var(--header-bg);
   color: var(--header-text);
   padding: 10px;
