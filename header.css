@@ -1,0 +1,8 @@
+.header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+}

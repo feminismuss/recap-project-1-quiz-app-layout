@@ -1,0 +1,10 @@
+.main-content {
+  background-color: var(--main-bg);
+  display: flex;
+  padding: 10px;
+}
+.main-content__title {
+  color: var(--main-title-text);
+  margin: 0 0 20px 0;
+  padding: 10px;
+}
