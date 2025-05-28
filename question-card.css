@@ -1,0 +1,35 @@
+.question-card {
+  padding: 10px;
+  justify-content: space-around;
+  background-color: var(--card-bg);
+  color: var(--card-text);
+  border-radius: 5px;
+  margin-top: 10px;
+  margin: 10px;
+  position: relative;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.question-card__answer-button {
+  border-radius: 5px;
+  background-color: var(--main-bg);
+  border: 1px;
+  font-size: medium;
+}
+
+.question-card__bookmark-button {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.question-card__tags {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
