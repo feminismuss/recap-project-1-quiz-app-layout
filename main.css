@@ -8,3 +8,25 @@
   margin: 0 0 20px 0;
   padding: 10px;
 }
+.header {
+  background-color: var(--header-bg);
+  color: var(--header-text);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+}
+
+.footer {
+  height: 48px;
+  background: var(--header-bg);
+  color: var(--header-text);
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}

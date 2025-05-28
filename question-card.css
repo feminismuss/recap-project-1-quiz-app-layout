@@ -26,7 +26,6 @@
   background-color: transparent;
   border: none;
 }
-
 .question-card__tags {
   display: flex;
   flex-direction: row;
