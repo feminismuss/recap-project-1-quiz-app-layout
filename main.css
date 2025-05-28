@@ -9,6 +9,9 @@
   padding: 10px;
   margin: 0%;
 }
+a {
+  padding: 5px 10px;
+}
 .header {
   background-color: var(--header-bg);
   color: var(--header-text);
@@ -17,7 +20,9 @@
   width: 100%;
   padding: 10px;
 }
-
+.active {
+  background-color: hotpink;
+}
 .footer {
   height: 48px;
   background: var(--header-bg);
