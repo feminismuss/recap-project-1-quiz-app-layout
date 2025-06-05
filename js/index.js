@@ -20,8 +20,10 @@ bookmarkButton.addEventListener("click", toggleBookmark);
 function showAnswer() {
   if (answerText.classList.contains("question-card__answer")) {
     answerText.classList.remove("question-card__answer");
+    AnswerButton.textContent = "show answer";
   } else {
     answerText.classList.add("question-card__answer");
+    AnswerButton.textContent = "hide answer";
   }
 }
 AnswerButton.addEventListener("click", showAnswer);
