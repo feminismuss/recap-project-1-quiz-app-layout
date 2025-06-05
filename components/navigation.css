@@ -1,0 +1,19 @@
+.active {
+  background-color: var(--main-bg);
+  border-radius: 5px;
+}
+.footer {
+  background: var(--header-bg);
+  color: var(--header-text);
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  padding: 5px 10px;
+}

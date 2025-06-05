@@ -10,3 +10,20 @@
   --card-bg: #e3ebec;
   --card-text: #003b46;
 }
+.main-content {
+  background-color: var(--main-bg);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+.main-content__title {
+  color: var(--main-title-text);
+  margin: 0 0 20px 0;
+  padding: 10px;
+  margin: 0%;
+}
+
+.profilpicture {
+  padding: 20px 10px;
+}
