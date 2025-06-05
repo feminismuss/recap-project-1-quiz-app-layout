@@ -12,7 +12,24 @@
       <h3 class="main-content__title">Add your question</h3>
     </header>
     <main class="main-content">
-      <form class="form"></form>
+      <form class="question-card">
+        <p>
+          contribute your knowlede! Feel free to add a question to this quiz.
+        </p>
+        <label for="your-question">Your Question:</label>
+        <textarea name="your-question" id="your-question"></textarea>
+        <br />
+        <label for="the-answer">The Answer:</label>
+        <textarea name="the-answer" id="the-answer"></textarea>
+        <br />
+        <label for="tag">add tag</label>
+        <input type="text" id="tag" />
+        <br />
+        <label for="submit"></label>
+        <button class="question-card__answer-button" type="submit" id="submit">
+          Submit
+        </button>
+      </form>
     </main>
     <footer class="footer">
       <nav class="navigation">
@@ -25,7 +42,7 @@
         <a class="active" href="./form.html">
           <img src="./assets/circle-plus.svg" alt="Form" />
         </a>
-        <a href="profile">
+        <a href="./profile.html">
           <img src="./assets/circle-user-round.svg" alt="Profil" />
         </a>
       </nav>
