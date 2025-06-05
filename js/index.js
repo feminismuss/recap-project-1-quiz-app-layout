@@ -1,17 +1,25 @@
 const bookmarkButton = document.querySelector('[data-js="bookmark-button"]');
-const bookmarkImg = document.querySelector('[data-js="bookmark-img"]')
+const bookmarkImg = document.querySelector('[data-js="bookmark-img"]');
+const AnswerButton = document.querySelector ('[data-js="answer-button"]');
+const answerText = document.querySelector ('[data-js="answer-text"]');
 
-function removeBookmark(){
-    bookmarkImg.removeAttribute("src");
-}
+// Funktion zum setzten des Bookmarks
 
-function setBookmark() {
+function toggleBookmark() {
+  const currentSource = bookmarkImg.getAttribute("src");
+  if (currentSource === "./assets/bookmark.svg") {
     bookmarkImg.setAttribute("src", "./assets/bookmark-check.svg");
+  } else {
+    bookmarkImg.setAttribute("src", "./assets/bookmark.svg");
+  }
+};
+bookmarkButton.addEventListener("click", toggleBookmark);
+
+// Funktion, die die Antwort anzeigt, wenn man auf den Button drückt
+
+function showAnswer(){
+    
+
 }
 
-bookmarkButton.addEventListener ("click", () => {
-    removeBookmark();
-    setBookmark();
-   });
-
-  
+AnswerButton.addEventListener("click", )

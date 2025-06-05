@@ -8,9 +8,12 @@
   margin: 10px;
   position: relative;}
 
-
 .question-card__tags {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
+.question-card__answer {
+  background-color: var(--main-bg);
+}
+  
