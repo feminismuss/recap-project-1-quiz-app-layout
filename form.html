@@ -9,22 +9,27 @@
   <body>
     <header class="header">
       <h1 class="header__title">Quiz App</h1>
-      <h3 class="main-content__title">Profil</h3>
+      <h3 class="main-content__title">Add your question</h3>
     </header>
     <main class="main-content">
-      <article class="about">
-        <img
-          class="profilpicture"
-          src="./assets/circle-user-round.svg"
-          alt="circle-user-round"
-        />
-        <h3 class="main-content__title">Hannah Capell</h3>
-        <p class="about-text">
-          Wenn ich am Strand bin, sammel ich immer gern. Dieses Jahr gefällt mir
-          die Miesmuschel ganz besonders. Mir gefällt die Idee durch ein Quiz
-          mehr über die Miesmuschel zu lernen.
+      <form class="question-card">
+        <p>
+          contribute your knowlede! Feel free to add a question to this quiz.
         </p>
-      </article>
+        <label for="your-question">Your Question:</label>
+        <textarea name="your-question" id="your-question"></textarea>
+        <br />
+        <label for="the-answer">The Answer:</label>
+        <textarea name="the-answer" id="the-answer"></textarea>
+        <br />
+        <label for="tag">add tag</label>
+        <input type="text" id="tag" />
+        <br />
+        <label for="submit"></label>
+        <button class="question-card__answer-button" type="submit" id="submit">
+          Submit
+        </button>
+      </form>
     </main>
     <footer class="footer">
       <nav class="navigation">
@@ -34,10 +39,10 @@
         <a href="./bookmarks.html">
           <img src="./assets/bookmark.svg" alt="Bookmark" />
         </a>
-        <a href="./form.html">
+        <a class="active" href="./form.html">
           <img src="./assets/circle-plus.svg" alt="Form" />
         </a>
-        <a class="active" href="profile">
+        <a href="./profile.html">
           <img src="./assets/circle-user-round.svg" alt="Profil" />
         </a>
       </nav>

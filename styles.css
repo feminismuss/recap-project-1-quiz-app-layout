@@ -1,6 +1,9 @@
 @import "./global.css";
 @import "./main.css";
-@import "./question-card.css";
+@import "./components/header.css";
+@import "./components/navigation.css";
+@import "./components/card.css";
+@import "./components/button.css";
 *,
 *::before,
 *::after {
@@ -11,4 +14,10 @@ body {
   font-family: system-ui, sans-serif;
   margin: 0;
   background-color: var(--body-bg);
+  /* background-image: (./assets/shellfish-1177790_640.jpg); */
+}
+
+.about-text {
+  padding: 10px;
+  color: var(--main-title-text);
 }

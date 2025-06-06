@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ouiz App</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="./js/index.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -18,11 +19,23 @@
           Wie viele Miesmuscheln kann man essen bevor es gesundheitsgefährdend
           ist?
         </p>
+        <p class="question-card__answer" data-js="answer-text">
+          Never tried that!
+        </p>
         <div class="button-container">
-          <button class="question-card__answer-button">Show answer</button>
+          <button class="question-card__answer-button" data-js="answer-button">
+            Show answer
+          </button>
         </div>
-        <button class="question-card__bookmark-button">
-          <img src="./assets/bookmark.svg" alt="Bookmark" />
+        <button
+          class="question-card__bookmark-button"
+          data-js="bookmark-button"
+        >
+          <img
+            src="./assets/bookmark.svg"
+            alt="Bookmark"
+            data-js="bookmark-img"
+          />
         </button>
         <div class="question-card__tags">
           <div class="Ostsee">#Ostsee</div>
@@ -51,13 +64,16 @@
     <footer class="footer">
       <nav class="navigation">
         <a class="active" href="hompage">
-          <img src="./assets/house.svg" alt="" />
+          <img src="./assets/house.svg" alt="Home" />
         </a>
         <a href="./bookmarks.html">
           <img src="./assets/bookmark.svg" alt="Bookmark" />
         </a>
+        <a href="./form.html">
+          <img src="./assets/circle-plus.svg" alt="Form" />
+        </a>
         <a href="./profile.html">
-          <img src="./assets/circle-user-round.svg" alt="" />
+          <img src="./assets/circle-user-round.svg" alt="Profil" />
         </a>
       </nav>
     </footer>
