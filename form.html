@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ouiz App</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="./js/form.js" defer></script>
   </head>
   <body>
     <header class="header">
@@ -12,15 +13,27 @@
       <h3 class="main-content__title">Add your question</h3>
     </header>
     <main class="main-content">
-      <form class="question-card">
+      <form class="question-card" name="question-card" data-js="question-card">
         <p>
           contribute your knowlede! Feel free to add a question to this quiz.
         </p>
         <label for="your-question">Your Question:</label>
-        <textarea name="your-question" id="your-question"></textarea>
+        <textarea
+          name="your-question"
+          id="your-question"
+          data-js="your-question"
+          maxlength="150"
+          required
+        ></textarea>
         <br />
         <label for="the-answer">The Answer:</label>
-        <textarea name="the-answer" id="the-answer"></textarea>
+        <textarea
+          name="the-answer"
+          id="the-answer"
+          data-js="the-answer"
+          maxlength="150"
+          required
+        ></textarea>
         <br />
         <label for="tag">add tag</label>
         <input type="text" id="tag" />
@@ -30,6 +43,7 @@
           Submit
         </button>
       </form>
+      <article data-js="card-container"></article>
     </main>
     <footer class="footer">
       <nav class="navigation">
