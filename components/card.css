@@ -15,6 +15,7 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
+  font-size: small;
 }
 .question-card__answer {
   display: none;

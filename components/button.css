@@ -1,13 +1,14 @@
 .button-container {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 20px;
 }
 .question-card__answer-button {
   border-radius: 5px;
-  background-color: var(--main-bg);
+  background-color: var(--header-bg);
+  color: var(--main-bg);
   border: 1px;
-  font-size: medium;
+  font-size: large;
 }
 .question-card__bookmark-button {
   background-image: "./assets/bookmark-check";
@@ -17,4 +18,3 @@
   background-color: transparent;
   border: none;
 }
-
