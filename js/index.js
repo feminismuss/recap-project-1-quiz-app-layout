@@ -1,6 +1,8 @@
+console.clear();
+
 const bookmarkButton = document.querySelector('[data-js="bookmark-button"]');
 const bookmarkImg = document.querySelector('[data-js="bookmark-img"]');
-const AnswerButton = document.querySelector('[data-js="answer-button"]');
+const answerButton = document.querySelector('[data-js="answer-button"]');
 const answerText = document.querySelector('[data-js="answer-text"]');
 
 // Funktion zum setzten des Bookmarks
@@ -20,10 +22,10 @@ bookmarkButton.addEventListener("click", toggleBookmark);
 function showAnswer() {
   if (answerText.classList.contains("question-card__answer")) {
     answerText.classList.remove("question-card__answer");
-    AnswerButton.textContent = "hide answer";
+    answerButton.textContent = "hide answer";
   } else {
     answerText.classList.add("question-card__answer");
-    AnswerButton.textContent = "show answer";
+    answerButton.textContent = "show answer";
   }
 }
-AnswerButton.addEventListener("click", showAnswer);
+answerButton.addEventListener("click", showAnswer);
